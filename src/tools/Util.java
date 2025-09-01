@@ -4,6 +4,7 @@
  */
 package tools;
 
+import java.awt.TextField;
 import javax.swing.JComponent;
 import javax.swing.JTextField;
 
@@ -12,16 +13,19 @@ import javax.swing.JTextField;
  * @author u07773981175
  */
 public class Util {
-    public static void habilitar(JComponent ... compontentes){
+    public static void habilitar(boolean valor, JComponent ... compontentes){
          for (int i = 0; i < compontentes.length; i++) {
-            compontentes[i].setEnabled(true);
+            compontentes[i].setEnabled(valor);
             
         }
     }
-      public static void desabilitar(JComponent ... compontentes){
-         for (int i = 0; i < compontentes.length; i++) {
-            compontentes[i].setEnabled(false);
+    public static void limpar(JComponent ... components){
+        for (int i = 0; i < components.length; i++) {
+            // instanceof
+             ((JTextField) components[i]).setText("");
             
         }
     }
+    
+     
 }
