@@ -264,7 +264,7 @@ public class JDlgUsuarios extends javax.swing.JDialog {
 
     private void jBtnExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnExcluirActionPerformed
         // TODO add your handling code here:
-
+     Util.perguntar("Deseja excluir?");
     }//GEN-LAST:event_jBtnExcluirActionPerformed
 
 
@@ -276,10 +276,10 @@ public class JDlgUsuarios extends javax.swing.JDialog {
    Util.limpar(jTxtCodigo,jTxtNome,jTxtApelido, jFmtCpf, jFmtDataDeNascimento,jPwfSenha,  jChbAtivo, jCboNivel);
 
     }//GEN-LAST:event_jBtnConfirmarActionPerformed
-
+                                                                                                        
     private void jBtnPesquisarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnPesquisarActionPerformed
         // TODO add your handling code here: 
-
+     Util.mensagem("Oie");
 
     }//GEN-LAST:event_jBtnPesquisarActionPerformed
 
@@ -288,6 +288,7 @@ public class JDlgUsuarios extends javax.swing.JDialog {
   Util.habilitar(false,jTxtCodigo,jTxtNome,jTxtApelido, jFmtCpf,
                 jFmtDataDeNascimento,jCboNivel,jPwfSenha,  jChbAtivo, jCboNivel, jBtnConfirmar, jBtnCancelar);
    Util.habilitar(true,jBtnIncluir, jBtnAlterar, jBtnExcluir, jBtnPesquisar);
+     Util.limpar(jTxtCodigo,jTxtNome,jTxtApelido, jFmtCpf, jFmtDataDeNascimento,jPwfSenha,  jChbAtivo, jCboNivel);
     }//GEN-LAST:event_jBtnCancelarActionPerformed
 
     private void jTxtCodigoFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jTxtCodigoFocusLost
