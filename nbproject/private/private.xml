@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/u07773981175/Documents/NetBeansProjects/AulaLP5A/src/dao/UsuariosDAO.java</file>
+            <file>file:/C:/Users/u07773981175/Documents/NetBeansProjects/AulaLP5A/src/dao/HibernateUtil.java</file>
+            <file>file:/C:/Users/u07773981175/Documents/NetBeansProjects/AulaLP5A/src/hibernate.cfg.xml</file>
+            <file>file:/C:/Users/u07773981175/Documents/NetBeansProjects/AulaLP5A/src/dao/ProdutosDAO.java</file>
+            <file>file:/C:/Users/u07773981175/Documents/NetBeansProjects/AulaLP5A/src/bean/Pedidos.java</file>
+            <file>file:/C:/Users/u07773981175/Documents/NetBeansProjects/AulaLP5A/src/bean/Vendedor.java</file>
+            <file>file:/C:/Users/u07773981175/Documents/NetBeansProjects/AulaLP5A/src/dao/AbstractDAO.java</file>
+            <file>file:/C:/Users/u07773981175/Documents/NetBeansProjects/AulaLP5A/src/bean/Produtos.java</file>
+            <file>file:/C:/Users/u07773981175/Documents/NetBeansProjects/AulaLP5A/src/bean/Clientes.java</file>
+            <file>file:/C:/Users/u07773981175/Documents/NetBeansProjects/AulaLP5A/src/bean/hibernate.reveng.xml</file>
+            <file>file:/C:/Users/u07773981175/Documents/NetBeansProjects/AulaLP5A/src/bean/PedidosProdutos.java</file>
+            <file>file:/C:/Users/u07773981175/Documents/NetBeansProjects/AulaLP5A/src/view/JDlgUsuarios.java</file>
+            <file>file:/C:/Users/u07773981175/Documents/NetBeansProjects/AulaLP5A/src/bean/Usuarios.java</file>
+        </group>
+    </open-files>
+</project-private>
